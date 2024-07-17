@@ -14,6 +14,15 @@
 .display-flex{
     display: flex;
 }
+.btn{
+  width:196px;
+  height: 44px;
+  background-color: #E02C6D;
+  color: #ffffff;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 10px;
+}
 
 /* color dark-2  */
 .text-dark{
@@ -64,14 +73,11 @@
     font-weight: 500;
     width: 582;
     height: 270;
-    border: 1px solid red;
   }
   .brand-img {
     width:440px;
     height: 414px;
-    border:1px solid green;
     margin-top:50px;
-    border-radius: 100%;
   }
 
   /* logo icon image  */
@@ -108,7 +114,6 @@
    .fact-card{
     width:329px;
     height: 476px;
-    border: 1px solid green;
     border-radius: 10px;
     margin: 10px;
    }
@@ -124,24 +129,34 @@
    .feature-product{
     width: 1110px;
     height:270px ;
-    border: 1px solid red;
+    margin: 48px;
    }
    .feature-img{
     width:404px;
     height:270px;
-    border: 2px solid green;
    }
    .feature-content{
     width: 610px;
     height:224px;
-    border: 2px solid orange;
     text-align: center;
     margin: 0 auto;
    }
    
 /* feature-product section style end */
+.footer-container{
+  background-color: #18191F;
+}
+.footer{
+  text-align: center;
+  color: white;
+}
 
-
+.footer-content{
+  width: 262px;
+  height: 139px;
+  text-align: center;
+  background-color: #18191F;
+}
 
   /* responsibv start  */
   @media screen and (max-width:576px) {
@@ -150,5 +165,4 @@
     {
       flex-direction: column;
     }
-    
   }
