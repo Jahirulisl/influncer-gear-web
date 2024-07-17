@@ -119,14 +119,27 @@
     font-size: 24px;
    }
    /*-- fact product section end-- */
+
+   /* feature-product section style start */
+   .feature-product{
+    width: 1110px;
+    height:270px ;
+    border: 1px solid red;
+   }
+   .feature-img{
+    width:404px;
+    height:270px;
+    border: 2px solid green;
+   }
+   .feature-content{
+    width: 610px;
+    height:224px;
+    border: 2px solid orange;
+    text-align: center;
+    margin: 0 auto;
+   }
    
-
-
-
-
-
-
-
+/* feature-product section style end */
 
 
 
