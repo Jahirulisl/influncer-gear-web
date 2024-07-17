@@ -85,15 +85,20 @@
   }
 
 
-  /* fact section start  */
-  .fact-container{
+  /* fact product section start  */
+  .product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  /* .product-container{
     width: 1000px;
     height: 1600px;
     border:1px solid red;
     margin-top: 10px;
-  } 
+  }  */
 
-   /* fact section end  */
    .fact-title {
     font-size: 24px;
     text-align: center;
@@ -101,10 +106,21 @@
    }
 
    .fact-card{
-    width:320px;
-    height: 470px;
+    width:329px;
+    height: 476px;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: 10px;
    }
+   .fact-name{
+    font-size:28px ;
+   }
+   .fact-number{
+    font-size: 24px;
+   }
+   /*-- fact product section end-- */
    
+
 
 
 
